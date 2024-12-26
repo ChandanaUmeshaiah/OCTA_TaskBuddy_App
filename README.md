@@ -3,7 +3,7 @@
 Name: TaskBuddy
 Type: Task Management Application
 
-Core Features
+<b>Core Features</b>
 Task Input Form
 Add tasks with an input field and a submit button.
 Ensure the input is validated to prevent empty or duplicate tasks.
