@@ -27,3 +27,7 @@ Required Tools
 Code Editor: Visual Studio Code (or your preferred editor)
 Browser: Google Chrome (or any modern browser)
 Node.js & npm: To manage dependencies and run the React application
+
+<b>UI: </b> ![Taskbuddy](https://github.com/user-attachments/assets/c2fc2da9-6364-43db-b29b-d894663d4c2e)
+
+
