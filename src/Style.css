@@ -1,0 +1,30 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align:center;
+    padding: 20px;
+    background-color:black;
+    color:antiquewhite;
+}
+#inp {
+    display: flex;
+    gap:10px;
+}
+
+h1 {
+    font-size:2.5rem;
+    margin-bottom:20px;
+    color:beige;
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#vishnu {
+    display: flex;
+    gap: 10px;
+
+}
+
+#btns {
+    display: flex;
+    gab:10px;
+}
