@@ -1,14 +1,23 @@
 import React from 'react'
 
-export default function TaskForm(){
-    const [task, setTask] =useState('');
-    return(
-        <form>
-      <input type='text'
-      placeholder='Enter ur task'
-      requiredvalue={task}
-      onChange={(e) =>setTask(e.target.value)}/>
-      <h1>{task}</h1>
-        </form>
-    )
+function ProgressTracker({ tasks }) {
+  const completedTasks = tasks.filter((task) => task.completed).length;
+    const totalTasks = tasks.length;
+    const progress = totalTasks === 0 ? 0 : (completedTasks / totalTasks) * 100;
+
+    return (
+      <div className="progress-tracker">
+        <p>
+          {completedTasks} of {totalTasks} tasks completed
+        </p>
+        <div className="progress-bar">
+          <div 
+          className="progress"
+          style={{ width: `${progress}%` }}
+            ></div>
+            </div>
+            </div>
+    );
 }
+
+export default ProgressTracker;
